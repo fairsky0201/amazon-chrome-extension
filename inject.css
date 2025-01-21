@@ -1,0 +1,69 @@
+.azad_default_button,
+.azad_table_button,
+.azad_progress_bar,
+.azad_progress_worm {
+    float: Left;
+    height: 29px;
+    border-style: Solid;
+    border-color: Orange;
+    border-width: 2px;
+}
+
+.azad_default_button {
+    background-color: CornflowerBlue;
+    color: white;
+}
+
+.azad_table_button {
+    background-color: CornflowerBlue;
+    color: White;
+}
+
+.azad_progress_bar {
+    background-color: LightBlue;
+    block: inline;
+}
+
+.azad_progress_worm {
+    background-color: Orange;
+    height: 25px;
+    border-width: 0px;
+}
+
+.azad_banner {
+    margin: 20px;
+}
+
+.azad_ad_container {
+    border-width: 2px;
+    padding: 5px;
+    border-style: solid;
+    border-color: Orange;
+    font-family: arial,sans-serif;
+}
+
+.azad_small_print {
+  font-size: 0.7em;
+}
+
+#azad_order_table {
+    background-color: White;
+}
+
+#azad_notification_container {
+    z-index: 200;
+    position: absolute;
+    background-color: White;
+}
+
+.azad_notification_bar {
+    border: solid Orange;
+    border-width: 2px;
+    background-color: White;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+
+.azad_hidden {
+    display: none;
+}

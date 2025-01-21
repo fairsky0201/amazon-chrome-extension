@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_popup": "popup.html",
+      "default_title": "Amazon Order History Reporter"
+   },
+   "background": {
+      "service_worker": "background.bundle.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "jquery.dataTables.min.css", "datatables_override.css", "inject.css" ],
+      "js": [ "inject.bundle.js" ],
+      "matches": [ "https://www.amazon.ae/*", "https://www.amazon.ca/*", "https://www.amazon.co.jp/*", "https://www.amazon.co.uk/*", "https://www.amazon.com.au/*", "https://www.amazon.com.be/*", "https://www.amazon.com.mx/*", "https://www.amazon.com/*", "https://www.amazon.de/*", "https://www.amazon.es/*", "https://www.amazon.fr/*", "https://www.amazon.in/*", "https://www.amazon.it/*", "https://www.amazon.nl/*", "https://www.amazon.sa/*" ]
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; connect-src https://extensionpay.com"
+   },
+   "host_permissions": [ "https://www.amazon.ae/", "https://www.amazon.ca/", "https://www.amazon.co.jp/", "https://www.amazon.co.uk/", "https://www.amazon.com.au/", "https://www.amazon.com.be/", "https://www.amazon.com.mx/", "https://www.amazon.com/", "https://www.amazon.de/", "https://www.amazon.es/", "https://www.amazon.fr/", "https://www.amazon.in/", "https://www.amazon.it/", "https://www.amazon.nl/", "https://www.amazon.sa/" ],
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn1he73ZTI7ZZLI+djtRswOxYBbam4mXBYUc54QYZhnh2MDjgaa7Ryk/4hPYRB5QEJY/oEa7fWMUzn+swfdAFFGLTksNQ8V6G9jjlYOwi0KB50A5/Kn6MdadIa2Komp4lt4962JaOerZWj5b9FSpYOsOrjYPeDGWanmxUDjUkt2ZB+1MLtnHmbB7JOwpwjj6wotI9Pd0GIceD39uufrU7sKNTVTLiYlHioX9AJtVgpAXakJMaogL/oLXGbytGbqS9TbQApk66fvUaFiR1o631mOF2bgt1UAV79wQx7kC7/qIrhRddtLQJjrXeRa+ETH7Tq9PEV54FDAzsAvdGLNdQ0wIDAQAB",
+   "manifest_version": 3,
+   "name": "Amazon Order History Reporter",
+   "permissions": [ "contextMenus", "cookies", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.16.0"
+}
