@@ -5,7 +5,7 @@
     float: Left;
     height: 29px;
     border-style: Solid;
-    border-color: Orange;
+    border-color: green;
     border-width: 2px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .azad_progress_worm {
-    background-color: Orange;
+    background-color: green;
     height: 25px;
     border-width: 0px;
 }
@@ -38,7 +38,7 @@
     border-width: 2px;
     padding: 5px;
     border-style: solid;
-    border-color: Orange;
+    border-color: green;
     font-family: arial,sans-serif;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .azad_notification_bar {
-    border: solid Orange;
+    border: solid green;
     border-width: 2px;
     background-color: White;
     opacity: 1;

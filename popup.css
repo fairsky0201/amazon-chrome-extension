@@ -18,8 +18,8 @@ input.azad_action {
 
 a#azad_help {
   color: white;
-  background-color: orange;
-  border-color: orange;
+  background-color: green;
+  border-color: green;
   border: 5px;
   border-radius: 10px;
   padding: 5px;
@@ -42,7 +42,7 @@ div#azad_statistics {
 }
 
 button.azad_year_button {
-  background-color: orange;
+  background-color: green;
   color: white;
   width: 35px;
   text-align: center;
@@ -52,7 +52,7 @@ button.azad_year_button {
 }
 
 button.azad_months_button {
-  background-color: orange;
+  background-color: green;
   color: white;
   width: 35px;
   text-align: center;
@@ -90,18 +90,18 @@ div#azad_info {
 div#azad_state {
   font-weight: bold;
   font-size: 120%;
-  color: orange;
+  color: green;
   width: 110px;
   margin: 0px;
   border: 5px;
   border-style: solid;
-  border-color: orange;
+  border-color: green;
   padding: 4px;
   text-align: center;
 }
 
 div#azad_statistics {
-  color: orange;
+  color: green;
   width: 180px;
   margin: 0px;
   border: 0px;
@@ -127,7 +127,7 @@ div#footer table tbody tr td {
 .azad_thanks {
   font-size: 200%;
   font-weight: bold;
-  color: orange;
+  color: green;
   text-decoration: none;
 }
 
@@ -150,5 +150,5 @@ a:active {
 }
 
 #azad_table_type_setting {
-  border: 1px solid orange;
+  border: 1px solid green;
 }

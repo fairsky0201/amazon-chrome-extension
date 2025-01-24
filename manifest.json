@@ -1,7 +1,7 @@
 {
    "action": {
       "default_popup": "popup.html",
-      "default_title": "Amazon Order History Reporter"
+      "default_title": "Amazon Lumberjack"
    },
    "background": {
       "service_worker": "background.bundle.js"
@@ -22,7 +22,7 @@
    },
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn1he73ZTI7ZZLI+djtRswOxYBbam4mXBYUc54QYZhnh2MDjgaa7Ryk/4hPYRB5QEJY/oEa7fWMUzn+swfdAFFGLTksNQ8V6G9jjlYOwi0KB50A5/Kn6MdadIa2Komp4lt4962JaOerZWj5b9FSpYOsOrjYPeDGWanmxUDjUkt2ZB+1MLtnHmbB7JOwpwjj6wotI9Pd0GIceD39uufrU7sKNTVTLiYlHioX9AJtVgpAXakJMaogL/oLXGbytGbqS9TbQApk66fvUaFiR1o631mOF2bgt1UAV79wQx7kC7/qIrhRddtLQJjrXeRa+ETH7Tq9PEV54FDAzsAvdGLNdQ0wIDAQAB",
    "manifest_version": 3,
-   "name": "Amazon Order History Reporter",
+   "name": "Amazon Lumberjack",
    "permissions": [ "contextMenus", "cookies", "storage", "tabs", "scripting", "activeTab" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "1.16.0"
