@@ -61,6 +61,17 @@ button.azad_months_button {
   padding: 2px;
 }
 
+div.azad_progressbar {
+  background-color: rgb(0, 153, 204);
+  color: white;
+  width: 212px;
+  text-align: center;
+  margin: 1px;
+  border: 0px;
+  padding: 2px;
+  margin-bottom: 8px;
+}
+
 button.azad_disabled {
   background-color: #FFDD99
 }
